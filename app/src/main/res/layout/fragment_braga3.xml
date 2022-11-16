@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.braga3Fragment.braga3Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="История термина"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:src="@drawable/anon" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Термин «мем» впервые употребил оксфордский профессор Ричард Докинз в своей книге «Эгоистичный ген» в 1976 году, ставшей классикой. Журналисты, пишущие об Интернете, быстро провели параллель между спонтанно приобретшей популярность информацией и теорией Докинза о меметике, представленной им в книге. В ней он экстраполирует на информационную среду концепцию генетики и называет «мемом» «единицу культурной информации», способную «размножаться». Вначале слово «мем» переводилось как «мим» в соответствии с правилами английского произношения слова meme]. Причём, сам Докинз образовал термин meme («мим») от греческого слова μήμιμα — «подобие»." />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="567dp"
+                android:src="@drawable/fox" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В настоящее время слово «мим» практически не используется. В русском языке прижилось написание и произношение «мем» и его производные («меметика», «интернет-мем»). Кроме того, авторы статей в СМК и некоторые блогеры вспомнили о вышедшей в 1994 году книге «Медиавирус. Как поп-культура тайно воздействует на ваше сознание» американского исследователя СМИ и конспиролога Дугласа Рашкоффа, в которой он также описывает похожие явления, называя их особыми медиавирусами. Писатель Майкл Флинн в романе «В стране слепых»[4] называет мемом любую расхожую фразу или идею, способную стать исторически значимой:  " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

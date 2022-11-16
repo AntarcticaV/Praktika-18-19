@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.bragaFragment.BragaFragment">
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="727dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Основные закономерности распространения интернет-мемов"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="281dp"
+                android:src="@drawable/mem_rasp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="296dp"
+                android:text="Спонтанному неконтролируемому распространению от одного интернет-пользователя к другому подвержена не всякая информация, а только та, которая каким-либо образом оставляет многих пользователей неравнодушными к ней. Первоначально подобным образом распространялись анекдоты, шутки (которые успешно передавались и до изобретения Интернета), ссылки на контент и файлы с медиа-объектами преимущественно развлекательного характера (сначала картинки, затем флэш-ролики, звукозаписи, видеозаписи), но особое внимание на явление, названное впоследствии «интернет-мемами», обратили с появлением этого названия. Западная исследовательница мемов Сьюзан Блэкмор обозначает мемы, для продвижения которых ключевую роль играют современные технологии распространения информации, термином T-meme.  " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

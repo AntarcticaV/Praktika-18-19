@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.braga2Fragment.braga2Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:text="Классификации"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="261dp"
+                android:src="@drawable/clas" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Одна из типологий была предложена Д. Рашкоффым на основании источника происхождения этих медиавирусов: искусственно созданные мемы, «кооптированные» вирусы или «вирусы-тягачи» и самозарождающиеся вирусы. А. Г. Квят предлагает типологию мемов на основе их воплощения в медиаобъектах: речевые клише, визуальные и аудиовизуальные объекты, образы реальных или вымышленных персонажей медиапространства, бренды компаний или товаров, а также тематические доминанты медиапространства. Ю. В. Щурина приводит типологию мемов, по типу их носителя: текстовый мем; мем-картинка; видеомем; креолизованный мем, состоящий из текстовой и визуальной части. В работе Н. А. Зиновьевой представлена типология, основанная на дихотомиях:" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="—	Источник мема. Дихотомия – истина-ложь.\n —	Объект реальности, требующий отражения. Дихотомия – персонаж-событие (идея).\n —	Апелляция к уровню включенности в культуру. Дихотомия – традиция-инновация.\n —	Смысловые доминанты. Дихотомия – фон-фигура.\n —	Форма отображения. Дихотомия – изображение-текст.\n —	Эффект воздействия. Дихотомия – мысль или действие.\n " />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

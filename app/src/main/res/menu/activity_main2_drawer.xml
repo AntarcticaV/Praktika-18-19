@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Галерея" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Контакты" />
+        <item
+            android:id="@+id/bragaFragment"
+            android:title="Основные распространения"
+            android:icon="@drawable/icons_cherep"
+            />
+        <item
+            android:id="@+id/braga2Fragment"
+            android:title="Классификации"
+            android:icon="@drawable/icons_gomer"
+            />
+        <item
+            android:id="@+id/mem2012"
+            android:title="Мемы из 2012"
+            android:icon="@drawable/icons_vudi"
+            />
+        <item
+            android:id="@+id/braga3Fragment"
+            android:title="История возникновения"
+            android:icon="@drawable/icons_chebur"
+            />
+        <item
+            android:id="@+id/spasibo"
+            android:title="Спасибо"
+            android:icon="@drawable/icons_ioda"/>
+
+
+    </group>
+</menu>
